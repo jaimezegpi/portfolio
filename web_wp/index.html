@@ -1,27 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<title>Portfolio</title>
+
 	<meta charset="UTF-8">
 	<meta name="description" content="Free Web tutorials">
 	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
 	<meta name="author" content="John Doe">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	<link href="https://fonts.googleapis.com/css?family=Marvel&display=swap" rel="stylesheet">
 	<!-- Styles INI -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://kit.fontawesome.com/d4b43858e5.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 	<!-- Styles END -->
 
 </head>
 
 <body>
-	<section class="section one">
+	<section class="section one block-center-left">
 		<div class="row">
-			<div class="col-md-4" ></div>
-			<div class="col-md-4">
+			<div class="col-sm-0 col-md-4" ></div>
+			<div class="col-sm-9 col-md-4">
 				<div class="bg-dark content-container">
-					Puper texto
+					<div class="presentation content-flex-column space-between">
+						<div class="">
+							<h1>Jhon Doe</h1>
+							<h2>Developer</h2>
+						</div>
+						<div class="">
+							<p><a href="mailto:jaimezegpi@yahoo.es">jaimezegpi@yahoo.es</a></p>
+							<p><a href="tel:+56951083964">P: +56 9 5108 3964</a></p>
+						</div>
+						<div class="">
+							<p><a href="https://github.com"><i class="fab fa-github"></i></a> <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a> <a href="https://instagram.com"><i class="fab fa-instagram"></i></a> <a href="https://instagram.com"><i class="fab fa-linkedin-in"></i></a></p>
+						</div>
+						<div class="">
+							<p><a href="https://github.com"><i class="far fa-file-word"></i> Download Office Word alternative</a></p>
+						</div>
+					</div>
 				</div>
+			</div>
+			<div class="col-sm-3 col-md-4" ></div>
+		</div>
+
+	</section>
+
+	<section class="separation">
+		<div class="row">
+			<div class="col-sm-0 col-md-4" ></div>
+			<div class="col-sm-9 col-md-4">
 				<div class="mini_footer_container">
 					<div class="corner">
 						<svg class="" width="50px" height="50px" >
@@ -31,43 +62,180 @@
 					<div class="bg-dark extension">
 					</div>
 					<div class="corner bg-dark">
+						<svg class="corner-right" width="50px" height="50px">
+							<path d="M0,0 Q0,50 50,50 T0,50" fill="#1c1c1c">
+						</path></svg>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 col-md-4" ></div>
+		</div>
+	</section>
+
+	<section class="section two block-rigth">
+		<div class="row">
+			<div class="col-sm-0 col-md-0 col-lg-1" ></div>
+			<div class="col-sm-6 col-md-6 col-lg-5" >
+				<div class="content-right">
+					<h2>PROJECTS</h2>
+					
+					<p>Projects in which I have participated.</p>
+					<div class="row projects_cards">
+						<div class="col-sm-12 col-md-4 col-lg-3">
+							<a data-fancybox="projects" data-caption="Wordpress - JP - Backend - Integration - MTM.cl" href="img/project/py_f.jpg"><img src="img/project/py_t.jpg"></a>
+						</div>
+						<div class="col-sm-12 col-md-4 col-lg-3">
+							<a data-fancybox="projects" data-caption="Drupal - JP - Backend - Integration - FUSIONA.cl" href="img/project/nuevapudahuel_f.jpg"><img src="img/project/nuevapudahuel_t.jpg"></a>
+						</div>
+						<div class="col-sm-12 col-md-4 col-lg-3">
+							<a data-fancybox="projects" data-caption="Wordpress - JP - Backend - Integration - MTM.cl" href="img/project/lapoza_f.jpg"><img src="img/project/lapoza_t.jpg"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-6 col-lg-5 content-flex-column">
+				<div class="mini_header_container">
+					<div class="corner bg-dark">
+						<svg class="corner-left" width="50px" height="50px" >
+							<path d="M0,0 Q50,0 50,50 T50,0" fill="#1c1c1c" >
+						</svg>
+					</div>
+					<div class="bg-dark extension">
+						<h2>W. SKILLS</h2>
+						<p>Team Work.</p>
+					</div>
+					<div class="corner">
+						<svg class="" width="50px" height="50px" >
+							<path d="M0,0 Q50,0 50,50 T0,50" fill="#1c1c1c" >
+						</svg>
+					</div>
+				</div>
+				<div class="bg-dark content-container content-left">
+					&nbsp;
+					<div class="row">
+						<div class="col-sm-4" ><p>PHP</p></div>
+						<div class="col-sm-8" ><div class="percent_background w90">90%</div></div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4" ><p>SQL</p></div>
+						<div class="col-sm-8" ><div class="percent_background w85">85%</div></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-0 col-md-0 col-lg-1" ></div>
+		</div>
+	</section>
+
+	<section class="separation">
+		<div class="row">
+			<div class="col-sm-0 col-md-0 col-lg-1" ></div>
+			<div class="col-sm-6 col-md-6 col-lg-5" ></div>
+			<div class="col-sm-6 col-md-6 col-lg-5">
+				<div class="mini_footer_container">
+					<div class="corner bg-dark">
+						<svg class="corner-left " width="50px" height="50px" >
+							<path d="M50,0 Q50,50 0,50 T50,50" fill="#1c1c1c" >
+						</svg>
+					</div>
+					<div class="bg-dark extension">
+					</div>
+					<div class="corner">
+						<svg class="" width="50px" height="50px" >
+							<path d="M50,0 Q50,50 0,50 T0,0" fill="#1c1c1c" >
+						</svg>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-0 col-md-0 col-lg-1" ></div>
+		</div>
+	</section>
+
+	<section class="section three block-left">
+		<div class="row">
+			<div class="col-sm-0 col-md-0 col-lg-1" ></div>
+			<div class="col-sm-6 col-md-6 col-lg-5">
+
+				<div class="mini_header_container ">
+					<div class="corner">
+						<svg class="" width="50px" height="50px" >
+							<path d="M50,0 Q0,0 0,50 T50,50" fill="#1c1c1c" >
+						</svg>
+					</div>
+					<div class="bg-dark extension content-right-black ">
+						<h2>CERTIFICATES</h2>
+					</div>
+					<div class="corner bg-dark ">
+						<svg class="corner-right" width="50px" height="50px" >
+							<path d="M50,0 Q0,0 0,50 T0,0" fill="#1c1c1c" >
+						</svg>
+					</div>
+				</div>
+				<div class="bg-dark content-container content-right ">
+					<div class="row certificates_cards">
+						<div class="item col-sm-12 col-md-4 col-lg-3">
+							<a data-fancybox="certificates" data-caption="WEB DESIGNER - CoderHouse" href="img/certificate/diseno_web_f.jpg"><img src="img/certificate/diseno_web_t.jpg"></a>
+							<div class="capacitation_description">
+								<p>WEB DESIGNER</p>
+								<span>CODERHOUSE</span>
+								<span> 2016-12-07</span>
+							</div>
+						</div>
+						<div class="item col-sm-12 col-md-4 col-lg-3">
+							<a data-fancybox="certificates" data-caption="WEB DESIGNER - CoderHouse" href="img/certificate/arquitectura_de_software_f.jpg"><img src="img/certificate/arquitectura_de_software_t.jpg"></a>
+							<div class="capacitation_description">
+								<p>SOFTWARE ARQUITECTURE</p>
+								<span>PLATZI</span>
+								<span> 2019-01-26</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mini_footer_container">
+					<div class="corner">
+						<svg class=" " width="50px" height="50px" >
+							<path d="M0,0 Q0,50 50,50 T50,0" fill="#1c1c1c" >
+						</svg>
+					</div>
+					<div class="bg-dark extension">
+					</div>
+					<div class="corner bg-dark ">
 						<svg class="corner-right" width="50px" height="50px" >
 							<path d="M0,0 Q0,50 50,50 T0,50" fill="#1c1c1c" >
 						</svg>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4" ></div>
-		</div>
+			<div class="col-sm-6 col-md-6 col-lg-5 content-left" >
+				
+				<h2>EXPERIMENTS</h2>
+				
+				<p>Project test, Demos and crazy ideas.</p>
+					<div class="row experiments_cards">
+						<div class="item col-sm-12 col-md-4 col-lg-3">
+							<a data-fancybox="certificates" data-caption="WEB DESIGNER - CoderHouse" href="img/certificate/diseno_web_f.jpg"><img src="img/lab/ui_percent.png"></a>
+							<div class="capacitation_description">
+								<p>UI Percent</p>
+								<span>Circle Percent UI</span>
+							</div>
+						</div>
 
+						<div class="item col-sm-12 col-md-4 col-lg-3">
+							<a data-fancybox="certificates" data-caption="WEB DESIGNER - CoderHouse" href="img/certificate/diseno_web_f.jpg"><img src="img/lab/80_player.png"></a>
+							<div class="capacitation_description">
+								<p>80's Player</p>
+								<span>Visual Sound</span>
+							</div>
+						</div>
+					</div>
+			</div>
+			<div class="col-sm-0 col-md-0 col-lg-1" ></div>
+		</div>
 	</section>
 
-	<section class="section-intermediate">
-<!--
+	<section class="section one block-center-rigth">
 		<div class="row">
-			<div class="col-md-4" ></div>
-			<div class="col-md-2 corner ">
-				<svg class="right" width="50px" height="50px" >
-					<path d="M0,0 Q50,0 50,50 T50,0" fill="#1c1c1c" >
-				</svg>
-			</div>
-			<div class="col-md-2 bg-dark">
-			</div>
-			<div class="col-md-2 corner ">
-				<svg class="left" width="50px" height="50px" >
-					<path d="M0,0 Q0,50 50,50 T0,50" fill="#1c1c1c" >
-				</svg>
-			</div>
-		</div>
-	-->
-	</section>
-
-	<section class="section two">
-		<div class="row">
-			<div class="col-md-2" ></div>
-			<div class="col-md-4" >Texto 2 cuerpo blancoi</div>
-			<div class="col-md-4 ">
-
+			<div class="col-sm-3 col-md-4" ></div>
+			<div class="col-sm-9 col-md-4">
 				<div class="mini_header_container">
 					<div class="corner bg-dark">
 						<svg class="corner-left" width="50px" height="50px" >
@@ -84,8 +252,14 @@
 					</div>
 				</div>
 				<div class="bg-dark content-container">
-				texto segundo cuerpo</div>
+					Puper texto
+				</div>
 				<div class="mini_footer_container">
+					<div class="corner">
+						<svg class=" " width="50px" height="50px" >
+							<path d="M0,0 Q0,50 50,50 T50,0" fill="#1c1c1c" >
+						</svg>
+					</div>
 					<div class="bg-dark extension">
 					</div>
 					<div class="corner">
@@ -95,27 +269,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-2" ></div>
+			<div class="col-sm-0 col-md-4" ></div>
 		</div>
-	</section>
-	<section class="section-intermediate">
 
-		<div class="row">
-			<div class="col-md-4" ></div>
-			<div class="col-md-2 corner ">
-				<svg class="right" width="50px" height="50px" >
-					<path d="M0,0 Q50,0 50,50 T50,0" fill="#1c1c1c" >
-				</svg>
-			</div>
-			<div class="col-md-2 bg-dark">
-			</div>
-			<div class="col-md-2 corner ">
-				<svg class="left" width="50px" height="50px" >
-					<path d="M0,0 Q0,50 50,50 T0,50" fill="#1c1c1c" >
-				</svg>
-			</div>
-		</div>
 	</section>
+
 	<!-- Front Programing INI -->
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript">

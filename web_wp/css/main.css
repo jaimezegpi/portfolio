@@ -2,7 +2,8 @@
 
 *{
 	padding: 0!Important;
-	margin: 0!Important;	
+	margin: 0!Important;
+	font-family: "MArvel","Arial";
 }
 
 .bg-dark{
@@ -42,11 +43,54 @@
 
 .content-container{
 	position: relative;
-	height: 50vh;
+	min-height: 50vh;
+	height: 100%;
+}
+
+.content-flex-column{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+.content-flex-column.space-between{
+	justify-content: space-between;
+}
+
+.content-right{
+	text-align: right;
+	padding-right: 40px!Important;
+	padding-left: 40px!Important;
+}
+
+
+.content-right-black{
+	text-align: right;
+}
+
+.certificates_cards .item .capacitation_description{
+	text-align: center;
+	font-size: 10px;
+}
+
+.content-right-black h2{
+	text-align: right;
+	padding-right: initial!Important;
+}
+
+.content-left{
+	text-align: left;
+	padding-left: 25px!Important;	
 }
 
 .section{
 	position: relative;
+}
+
+.section .presentation{
+	text-align: center;
+	height: 100%;
 }
 
 .corner-left{
@@ -62,3 +106,25 @@
 	right: -50px;
 	top:0;
 }
+
+.projects_cards img{
+	width: 98%;
+	margin: 0 auto;
+}
+
+.percent_background{
+	background-color: #88c0d0;
+	color: #000;
+}
+
+.percent_background.w100{ width: 100%; }
+.percent_background.w95{ width: 95%; }
+.percent_background.w90{ width: 90%; }
+.percent_background.w85{ width: 85%; }
+.percent_background.w80{ width: 80%; }
+.percent_background.w75{ width: 75%; }
+.percent_background.w70{ width: 70%; }
+.percent_background.w65{ width: 65%; }
+.percent_background.w60{ width: 60%; }
+.percent_background.w55{ width: 55%; }
+.percent_background.w50{ width: 50%; }
