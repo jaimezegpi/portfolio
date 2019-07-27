@@ -44,7 +44,7 @@
 .content-container{
 	position: relative;
 	min-height: 50vh;
-	height: 100%;
+	flex:1;
 }
 
 .content-flex-column{
@@ -67,6 +67,12 @@
 
 .content-right-black{
 	text-align: right;
+}
+
+
+.certificates_cards .item{
+	text-align: center;
+	padding: 0px 1px 10px 1px!Important;
 }
 
 .certificates_cards .item .capacitation_description{
